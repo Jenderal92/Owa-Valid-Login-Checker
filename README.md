@@ -12,4 +12,4 @@ Saweria $: https://saweria.co/Shin403
 
 Trakteer $: https://trakteer.id/shin403
 
-![Screenshot_2023-05-23-14-30-13-937_com termux](https://github.com/Jenderal92/Owa-Valid-Login-Checker/assets/59664965/003b6dd2-d161-47d7-b04b-9f27b60883af)
+![IMG_20230523_143412](https://github.com/Jenderal92/Owa-Valid-Login-Checker/assets/59664965/d3cb7536-f847-4f3e-9786-059b5525e4e4)
