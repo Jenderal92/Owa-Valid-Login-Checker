@@ -1,7 +1,5 @@
 # Owa-Valid-Login-Checker
 
-Example List
-site.com/owa/|user|pass
 
 Python 2.7
 
